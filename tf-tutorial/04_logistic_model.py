@@ -76,7 +76,6 @@ with tf.Session() as sess:
     print('Total time: {0} seconds'.format(time.time() - start_time))
 
     # test the model
-    n_batches = int(len(X_test[0]) / batch_size)
     total_correct_preds = 0
 
     for i in range(n_batches):

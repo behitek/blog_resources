@@ -1,0 +1,1 @@
+TF tutorial: (https://nguyenvanhieu.vn/gioi-thieu-ve-tensorflow-tutorial/)[https://nguyenvanhieu.vn/gioi-thieu-ve-tensorflow-tutorial/]

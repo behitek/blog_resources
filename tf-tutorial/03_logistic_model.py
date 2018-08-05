@@ -33,7 +33,7 @@ Y = tf.placeholder(tf.int32, [batch_size, 10], name='label')
 # Step 3: create weights and bias
 # w is initialized to random variables with mean of 0, stddev of 0.01
 # b is initialized to 0
-# shape of w depends on the dimension of X and Y so that Y = tf-tutorial.matmul(X, w)
+# shape of w depends on the dimension of X and Y so that Y = tf.matmul(X, w)
 # shape of b depends on Y
 w = tf.get_variable(name='weights', shape=(784, 10), initializer=tf.random_normal_initializer())
 b = tf.get_variable(name='bias', shape=(1, 10), initializer=tf.zeros_initializer())
